@@ -1,27 +1,93 @@
-# Zadanie Testowe – Parser Kontentu (CSV / JSON)
+# Zadanie Testowe – Parser Danych (CSV / JSON)
 
-Aplikacja REST API napisana w **.NET 8**, służąca do dekodowania i parsowania danych wejściowych z formatu **Base64** w postaci plików **CSV** oraz **JSON**.
-
----
-
-## 🛠️ Wykorzystane technologie i architektura
-
-* **.NET 8 Web API**
-* **Factory Pattern (Wzorzec Fabryki)** – elastyczne tworzenie odpowiedniego parsera na podstawie przekazanego typu w żądaniu (`DataFormat`).
-* **CsvHelper** – bezpieczne i wydajne parsowanie danych CSV do słowników.
-* **System.Text.Json** – wbudowany mechanizm parsowania danych JSON.
-* **BOM & UTF-8 Sanitization** – automatyczne czyszczenie ciągu Base64 z ukrytych znaków nagłówka UTF-8 (`\uFEFF`) oraz białych znaków.
+Aplikacja REST API napisana w **.NET 10**, której zadaniem jest dekodowanie danych zapisanych w formacie **Base64** oraz ich parsowanie z plików **CSV** i **JSON**.
 
 ---
 
-## 🚀 Jak uruchomić aplikację lokalnie
+## 🛠️ Technologie i architektura
 
-### Wymagania wstępne
-* Zainstalowane SDK .NET 8.0 lub nowsze ([Pobierz .NET SDK](https://dotnet.microsoft.com/download))
+Projekt został zrealizowany z wykorzystaniem następujących technologii i wzorców projektowych:
 
-### Krok po kroku
+- **.NET 10 Web API** – nowoczesny framework do tworzenia usług REST.
+- **Factory Pattern** – wybór odpowiedniego parsera na podstawie wartości `DataFormat` przekazanej w żądaniu.
+- **CsvHelper** – wydajne i bezpieczne przetwarzanie danych CSV.
+- **System.Text.Json** – wbudowana biblioteka do obsługi danych JSON.
+- **Obsługa UTF-8 BOM oraz sanitizacja danych** – automatyczne usuwanie znaku BOM (`\uFEFF`) oraz zbędnych białych znaków z ciągu Base64 przed jego dekodowaniem.
 
-1. **Sklonuj repozytorium:**
-   ```bash
-   git clone <LINK_DO_TWOJEGO_REPOZYTORIUM>
-   cd <NAZWA_KATALOGU_Z_PROJEKTEM>
+---
+
+## 🚀 Uruchomienie aplikacji
+
+### Wymagania
+
+- Zainstalowany **.NET 10 SDK** (lub nowszy).
+
+### Instalacja i uruchomienie
+
+1. Sklonuj repozytorium:
+
+```bash
+git clone https://github.com/KubaPocz/KamsoftZadanieTestowe.git
+```
+
+2. Przejdź do katalogu projektu:
+
+```bash
+cd KamsoftZadanieTestowe
+```
+
+3. Uruchom aplikację:
+
+```bash
+dotnet run
+```
+
+4. Otwórz dokumentację API w przeglądarce:
+
+```
+https://localhost:7259/scalar
+```
+
+---
+
+## 📄 Dokumentacja API
+
+Projekt wykorzystuje **Scalar** do prezentacji dokumentacji API oraz testowania endpointów.
+
+Po uruchomieniu aplikacji przejdź pod adres:
+
+```
+https://localhost:7259/scalar
+```
+
+---
+
+## 📦 Obsługiwane formaty danych
+
+Aplikacja obsługuje dane zakodowane w formacie **Base64** dla następujących typów:
+
+- ✅ CSV
+- ✅ JSON
+
+Typ danych wybierany jest na podstawie pola `DataFormat` przekazanego w żądaniu.
+
+---
+
+## 🏗️ Architektura
+
+Projekt został przygotowany zgodnie z zasadą rozdzielenia odpowiedzialności.
+
+```
+Controller
+    │
+    ▼
+Factory
+    │
+    ▼
+Parser (CSV / JSON)
+    │
+    ▼
+Wynik parsowania
+```
+
+Dzięki zastosowaniu wzorca **Factory Pattern** dodanie kolejnych parserów (np. XML lub YAML) wymaga jedynie implementacji nowego parsera oraz jego rejestracji w fabryce, bez modyfikowania logiki kontrolera.
