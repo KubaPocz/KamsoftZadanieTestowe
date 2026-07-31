@@ -1,0 +1,75 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "KamsoftZadanieTestowe | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7259"
+    },
+    {
+      "url": "http://localhost:5203"
+    }
+  ],
+  "paths": {
+    "/api/v1/parse-content": {
+      "post": {
+        "tags": [
+          "Parser"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParseRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParseRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParseRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DataFormat": {
+        "enum": [
+          "CSV",
+          "INTERNAL_JSON"
+        ]
+      },
+      "ParseRequest": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "$ref": "#/components/schemas/DataFormat"
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Parser"
+    }
+  ]
+}

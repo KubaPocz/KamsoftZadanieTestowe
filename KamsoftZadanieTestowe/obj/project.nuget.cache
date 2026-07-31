@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "nmM5Ro3L2iI=",
+  "success": true,
+  "projectFilePath": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kuba Luzak\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\Kuba Luzak\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\Kuba Luzak\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba Luzak\\.nuget\\packages\\scalar.aspnetcore\\2.16.17\\scalar.aspnetcore.2.16.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Pakiet „Microsoft.OpenApi” 2.0.0 ma znane wysoka luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj",
+      "warningLevel": 1,
+      "filePath": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

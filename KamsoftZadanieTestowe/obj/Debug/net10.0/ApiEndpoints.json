@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "KamsoftZadanieTestowe.Controllers.ParserController",
+    "Method": "Parse",
+    "RelativePath": "api/v1/parse-content",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parseRequest",
+        "Type": "KamsoftZadanieTestowe.Models.ParseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
