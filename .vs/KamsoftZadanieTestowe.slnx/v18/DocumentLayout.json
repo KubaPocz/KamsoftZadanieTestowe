@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "K:\\GitHub\\KamsoftZadanieTestowe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|k:\\github\\kamsoftzadanietestowe\\kamsoftzadanietestowe\\kamsoftzadanietestowe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|solutionrelative:kamsoftzadanietestowe\\kamsoftzadanietestowe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|k:\\github\\kamsoftzadanietestowe\\kamsoftzadanietestowe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|solutionrelative:kamsoftzadanietestowe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|solutionrelative:kamsoftzadanietestowe\\services\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|k:\\github\\kamsoftzadanietestowe\\kamsoftzadanietestowe\\kamsoftzadanietestowe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|solutionrelative:kamsoftzadanietestowe\\kamsoftzadanietestowe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|k:\\github\\kamsoftzadanietestowe\\kamsoftzadanietestowe\\services\\parserfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F77583F-04F4-4700-70AA-D0ECF80CB5EE}|KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj|solutionrelative:kamsoftzadanietestowe\\services\\parserfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DataFormat.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Models\\DataFormat.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Models\\DataFormat.cs",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Models\\DataFormat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T16:37:54.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T16:37:54.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Program.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Program.cs",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\ParserFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:57:09.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:57:09.149Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\IParserFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:56:33.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:56:33.587Z"
             },
             {
               "$type": "Document",
@@ -126,12 +123,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\KamsoftZadanieTestowe.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-07-31T15:40:10.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:40:10.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ParserController.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Controllers\\ParserController.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Controllers\\ParserController.cs",
@@ -139,12 +135,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Controllers\\ParserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:34:46.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:34:46.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JsonParser.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Services\\JsonParser.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Services\\JsonParser.cs",
@@ -152,12 +147,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\JsonParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwBAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:33:56.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:33:56.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CsvParser.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Services\\CsvParser.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Services\\CsvParser.cs",
@@ -165,12 +159,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\CsvParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:33:36.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:33:36.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IParser.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Services\\IParser.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Services\\IParser.cs",
@@ -178,12 +171,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\IParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:33:22.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:33:22.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ParseResponse.cs",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\Models\\ParseResponse.cs",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\Models\\ParseResponse.cs",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Models\\ParseResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:23:58.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:23:58.183Z"
             },
             {
               "$type": "Document",
@@ -204,12 +195,11 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Models\\ParseRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:23:45.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:23:45.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "KamsoftZadanieTestowe.csproj",
               "DocumentMoniker": "K:\\GitHub\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj",
               "RelativeDocumentMoniker": "KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj",

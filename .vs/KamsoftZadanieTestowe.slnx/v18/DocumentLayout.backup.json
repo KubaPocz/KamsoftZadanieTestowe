@@ -74,8 +74,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Models\\DataFormat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T16:37:54.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T16:37:54.632Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\ParserFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:57:09.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:57:09.149Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\IParserFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:56:33.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:56:33.587Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\KamsoftZadanieTestowe.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-07-31T15:40:10.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:40:10.89Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Controllers\\ParserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:34:46.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:34:46.192Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\JsonParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwBAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:33:56.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:33:56.313Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\CsvParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:33:36.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:33:36.044Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Services\\IParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:33:22.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:33:22.802Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Models\\ParseResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:23:58.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:23:58.183Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\Models\\ParseRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T15:23:45.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:23:45.889Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "KamsoftZadanieTestowe\\KamsoftZadanieTestowe.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-31T15:18:44.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T15:18:44.777Z"
             }
           ]
         },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KamsoftZadanieTestowe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+156d612b70bf96632d8b91e3e2e748814faa1e89")]
 [assembly: System.Reflection.AssemblyProductAttribute("KamsoftZadanieTestowe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KamsoftZadanieTestowe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
